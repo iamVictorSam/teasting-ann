@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+.centered_div {
+  /* background-color: red; */
+  height: 420px;
+  display: flex;
+
+  /* width: 300px; */
+}
+
+img {
+  height: 100%;
+  max-width: 15rem;
+  object-fit: cover;
+  border-bottom-left-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.hero_container {
+  background-color: white;
+  width: 15rem;
+  padding: 30px;
+  border-bottom-right-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.perfume {
+  letter-spacing: 7px;
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+  padding-bottom: 15px;
+}
+
+.title {
+  padding-bottom: 15px;
+}
+
+.desc {
+  color: gray;
+  padding-bottom: 15px;
+}
+
+.price {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 14px;
+  padding-bottom: 15px;
+  color: rgb(9, 91, 9);
+}
+
+.real_price {
+  text-decoration: line-through;
+  color: grey;
+  font-size: small;
+}
+
+.cta {
+  padding: 12px;
+  font-size: 14px;
+  background-color: rgb(9, 91, 9);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 10px;
+}
